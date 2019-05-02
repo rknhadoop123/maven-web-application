@@ -86,17 +86,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>admin</name>
-	      <url>http://3.18.220.47:8081/repository/flipkart-release/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>admin</name>
-	      <url>http://3.18.220.47:8081/repository/flipkart-snapshot/</url>
-	    </snapshotRepository>
-	</distributionManagement>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://18.188.210.99:8081/repository/rk-technology-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>central</id>
+      <url>http://18.188.210.99:8081/repository/rk-technology-release/</url>
+    </repository>
+  </distributionManagement>
+
 	
 	<build>
 	   <finalName>maven-web-application</finalName>
