@@ -29,6 +29,8 @@
 	</properties>
 
 	<dependencies>
+		
+		
 
 		<!-- test dependencies -->
 		<dependency>
@@ -88,11 +90,11 @@
 	<distributionManagement>
     <snapshotRepository>
       <id>snapshots</id>
-      <url>http://18.188.210.99:8081/repository/rk-technology-snapshots/</url>
+      <url>http://18.138.58.230:8081/repository/rk-technology-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>central</id>
-      <url>http://18.188.210.99:8081/repository/rk-technology-release/</url>
+      <url>http://18.138.58.230:8081/repository/rk-technology-release</url>
     </repository>
   </distributionManagement>
 
