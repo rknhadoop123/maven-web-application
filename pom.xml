@@ -32,7 +32,7 @@
 		
 		
 <!--webhook added-->
-		<!-- test dependencies -->
+		<!-- test depenencies -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
